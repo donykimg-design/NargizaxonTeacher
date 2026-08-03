@@ -203,6 +203,8 @@ nav a:hover:not(.btn-primary) { opacity: 0.8; color: white; }
 .btn-submit:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(236, 72, 153, 0.4); }
 
 .success-page { height: 100vh; display: flex; justify-content: center; align-items: center; text-align: center; padding: 0 5%; }
+.success-title { color: #10b981; font-size: 2.5rem; margin-bottom: 1rem; }
+.success-text { font-size: 1.2rem; margin-bottom: 2rem; }
 footer { text-align: center; padding: 2rem; border-top: 1px solid var(--glass-border); color: #64748b; background: rgba(255, 255, 255, 0.9); }
 
 @media (max-width: 768px) {
@@ -242,4 +244,7 @@ footer { text-align: center; padding: 2rem; border-top: 1px solid var(--glass-bo
     .input-group label { top: 0.8rem; left: 1rem; font-size: 0.95rem; }
     .input-group textarea { min-height: 80px; }
     .btn-submit { padding: 0.9rem; font-size: 1.1rem; }
+    
+    .success-title { font-size: 1.8rem; }
+    .success-text { font-size: 1rem; margin-bottom: 1.5rem; }
 }
