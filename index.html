@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingliz Tili Kurslari - Eng yaxshi natija</title>
+    <meta name="description" content="Zamonaviy metodika asosida ingliz tilini tez va oson o'rganing.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">English<span>Pro</span></div>
+        <nav>
+            <a href="#teacher">Ustoz haqida</a>
+            <a href="#features">Afzalliklar</a>
+            <a href="#contact" class="btn-primary">Yozilish</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Qizlar uchun maxsus <span class="highlight">ingliz tili</span> kursi</h1>
+                <p>Faqat qizlar uchun mo'ljallangan zamonaviy va erkin muhit. Maqsadlaringizga biz bilan qisqa vaqtda erishing.</p>
+                <a href="#contact" class="btn-large">Bepul darsga yozilish</a>
+            </div>
+            <div class="hero-image">
+                <div class="glass-card">
+                    <h3 style="font-size: 2.2rem; color: #ec4899;"><i class="fa-solid fa-graduation-cap" style="margin-right: 10px;"></i>Sifatli Ta'lim</h3>
+                    <p style="font-size: 1.1rem; margin-top: 10px; font-weight: 600;">Zamonaviy va oson metodika</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="teacher" class="teacher-section">
+            <div class="teacher-container">
+                <div class="teacher-image">
+                    <div class="avatar-placeholder">
+                        <i class="fa-solid fa-user-graduate"></i>
+                    </div>
+                </div>
+                <div class="teacher-info">
+                    <h2>Ustoz haqida</h2>
+                    <h3 class="teacher-name">Nargizaxon</h3>
+                    <div class="badges">
+                        <span class="badge"><i class="fa-solid fa-certificate"></i> Milliy CEFR B2</span>
+                        <span class="badge"><i class="fa-solid fa-star"></i> Zamonaviy Metodika</span>
+                    </div>
+                    <p>Men darslarda zerikarli yodlashlardan voz kechib, tilni his qilish va amaliyotda qo'llashga e'tibor qarataman. Kursimiz <b>faqat qizlar uchun</b> mo'ljallangan bo'lib, darslarda mutlaqo erkin va qulay muhit yaratilgan. Agar siz qisqa vaqt ichida aniq natijaga erishmoqchi bo'lsangiz, ushbu kurs aynan siz uchun!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Nima uchun aynan bizning kurs?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon"><i class="fa-solid fa-rocket"></i></div>
+                    <h3>Tezkor Natija</h3>
+                    <p>Faqat eng kerakli grammatika va ko'proq speaking amaliyoti orqali qisqa vaqtda natija.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                    <h3>Kurs muallifi va Ustoz</h3>
+                    <p>Darslar bevosita kurs asoschisi, milliy CEFR (B2) sertifikatiga ega malakali mutaxassis - Nargizaxon tomonidan olib boriladi.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon"><i class="fa-solid fa-laptop"></i></div>
+                    <h3>Qulay Format</h3>
+                    <p>Qizlar uchun qulay hamda xavfsiz muhit va dars materiallaridan umrbod foydalanish imkoniyati.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="curriculum" class="curriculum">
+            <h2>Kursda nimalar o'rganasiz?</h2>
+            <div class="curriculum-grid">
+                <div class="curriculum-item">
+                    <div class="step">01</div>
+                    <h4>Grammatika asosi</h4>
+                    <p>Faqat gapirish uchun eng zarur qoidalar va ularni oson eslab qolish usullari.</p>
+                </div>
+                <div class="curriculum-item">
+                    <div class="step">02</div>
+                    <h4>Ko'proq Speaking</h4>
+                    <p>Har bir darsning katta qismi aynan gapirish amaliyotiga bag'ishlanadi.</p>
+                </div>
+                <div class="curriculum-item">
+                    <div class="step">03</div>
+                    <h4>Aktiv Lug'at</h4>
+                    <p>Kundalik hayotda eng ko'p ishlatiladigan kerakli so'zlar bazasi.</p>
+                </div>
+                <div class="curriculum-item">
+                    <div class="step">04</div>
+                    <h4>Tinglab tushunish</h4>
+                    <p>Audiolar va kino parchalari orqali to'g'ri talaffuzni shakllantirish.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <h2>Kursga yozilish va savollar</h2>
+                <p>Ma'lumotlaringizni qoldiring, biz siz bilan tez orada bog'lanib, barcha savollaringizga javob beramiz!</p>
+                
+                <form name="course-contact" method="POST" data-netlify="true" action="/success.html" class="contact-form">
+                    <div class="input-group">
+                        <input type="text" name="name" id="name" required placeholder=" ">
+                        <label for="name">Ismingiz</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="surname" id="surname" required placeholder=" ">
+                        <label for="surname">Familiyangiz</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" name="phone" id="phone" required placeholder=" ">
+                        <label for="phone">Telefon raqamingiz (+998...)</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="question" id="question" rows="4" placeholder=" "></textarea>
+                        <label for="question">Kurs haqida savollaringiz (ixtiyoriy)</label>
+                    </div>
+                    <button type="submit" class="btn-submit">Yuborish</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 EnglishPro.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
